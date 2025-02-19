@@ -18,3 +18,5 @@ class Note(Base):
     content = Column(String, nullable=False)
     is_pinned = Column(Boolean, default=False)
     created_at = Column(TIMESTAMP, server_default=func.now())
+
+    

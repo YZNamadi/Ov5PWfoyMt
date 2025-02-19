@@ -80,3 +80,4 @@ def toggle_pin(note_id: int, current_user: str = Depends(get_current_user), db: 
     db.commit()
     db.refresh(db_note)
     return {"id": db_note.id, "is_pinned": db_note.is_pinned}
+

@@ -18,3 +18,4 @@ function NoteCard({ note, onEdit, onDelete, onTogglePin }) {
 }
 
 export default NoteCard;
+

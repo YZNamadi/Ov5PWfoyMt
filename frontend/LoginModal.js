@@ -56,3 +56,4 @@ function LoginModal({ open, onClose, onLogin }) {
 }
 
 export default LoginModal;
+

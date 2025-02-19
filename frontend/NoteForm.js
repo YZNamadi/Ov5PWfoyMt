@@ -62,3 +62,4 @@ function NoteForm({ open, onClose, onSubmit, initialData }) {
 }
 
 export default NoteForm;
+
